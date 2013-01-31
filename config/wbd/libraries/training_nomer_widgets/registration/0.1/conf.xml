@@ -1,0 +1,6 @@
+<widget>
+  <widgetClass>tooltwist.training_nomer.widgets.RegistrationWidget</widgetClass>
+  <idWithinRootWidget>0</idWithinRootWidget>
+  <label>registrationWidget</label>
+  <description>Registration Widget</description>
+</widget>

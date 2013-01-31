@@ -1,0 +1,4 @@
+<requestHandler>
+	<class>tooltwist.training_nomer.requestHandlers.SaveRequestHandler</class>
+	<description>Save Request Handler</description>
+</requestHandler>

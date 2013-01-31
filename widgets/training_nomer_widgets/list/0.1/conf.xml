@@ -1,0 +1,6 @@
+<widget>
+  <widgetClass>tooltwist.training_nomer.widgets.ListWidget</widgetClass>
+  <idWithinRootWidget>0</idWithinRootWidget>
+  <label>listWidget</label>
+  <description>List Widget</description>
+</widget>

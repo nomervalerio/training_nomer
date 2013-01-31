@@ -1,0 +1,6 @@
+<widget>
+  <widgetClass>tooltwist.training_nomer.widgets.PersonFilterWidget</widgetClass>
+  <idWithinRootWidget>0</idWithinRootWidget>
+  <label>Person Filter</label>
+  <description>Filter Widget for Person</description>
+</widget>

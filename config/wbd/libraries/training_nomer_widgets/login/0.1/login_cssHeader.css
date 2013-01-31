@@ -1,0 +1,16 @@
+/* Styles for widget login */
+
+#loginForm .labels{
+	font: helvetica;
+	display:inline;
+}
+
+#loginForm .inputboxes{
+	width:120px;
+	margin-bottom:10px;
+}
+
+#loginForm .buttons {
+	margin-left:50px;
+	background-color:transparent;
+}
