@@ -37,9 +37,19 @@ public class LoginRequestHandler extends WbdRequestHandler
 		String userName= request.getParameter("userName");
 		String password = request.getParameter("password");
 		
+		if ((userName==null)||(userName=="")){
+			uh.reply("invalid");
+			return true;
+			}
+			
+		if ((password==null)||(password=="")){
+			uh.reply("invalid");
+			return true;
+			}
+		
 		try {
 			
-			boolean hasProfile= hasProfile(uh, userName, password);
+			boolean hasProfile = hasProfile(uh, userName, password);
 			
 			if (hasProfile) {
 				//Profile already exist

@@ -39,7 +39,6 @@ public class RegistrationWidget extends WbdWidgetController
 		instance.defineProperty(new WbdStringProperty("elementId", null, "Id", ""));
 //		instance.defineProperty(new WbdStringProperty("myProperty", null, "My Property", ""));
 		instance.defineProperty(new WbdNavPointProperty("backPage", null, "Back Page", ""));
-		instance.defineProperty(new WbdNavPointProperty("savePage", null, "Save Page", ""));
 	}
 	
 	@Override

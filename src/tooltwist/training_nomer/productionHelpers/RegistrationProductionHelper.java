@@ -11,7 +11,7 @@ import tooltwist.wbd.WbdProductionHelper;
 
 public class RegistrationProductionHelper extends WbdProductionHelper {
 
-	private String personId, userName, firstName, middleName, lastName;
+	private String personId, userName, firstName, middleName, lastName, email, password;
 	
 	
 	public RegistrationProductionHelper(Properties params) {
@@ -41,6 +41,8 @@ public class RegistrationProductionHelper extends WbdProductionHelper {
 		setFirstName(nodes.getText("firstName"));
 		setMiddleName(nodes.getText("middleName"));
 		setLastName(nodes.getText("lastName"));
+		setEmail(nodes.getText("email"));
+		setPassword(nodes.getText("password"));
 		
 		return null;
 	}
@@ -83,5 +85,21 @@ public class RegistrationProductionHelper extends WbdProductionHelper {
 
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
+	}
+	
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
 	}
 }

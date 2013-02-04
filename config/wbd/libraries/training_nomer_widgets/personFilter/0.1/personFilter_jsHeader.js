@@ -4,15 +4,13 @@ var PersonFilter = function() {
 		myVariable: null,
 
 		init: function() {
-			alert("PersonFilter.init()");
-
-//			// attach an event to an HTML element
-//			var self = this;
-//			jQuery(".PersonFilter .myElementClass").click(function() {
-//				self.myMethod();
-//				// do something
-//				...
-//			});
+			jQuery("#txt-filter").keyup(function() {
+				var params = {
+						filter: jQuery("#txt-filter").val()
+					};
+				
+					ajaxZoneLoad_person(params);
+			});
 		},
 		
 		myMethod: function() {
@@ -22,4 +20,4 @@ var PersonFilter = function() {
 	};
 }();
 
-//jQuery(PersonFilter.init()); // Run after page loads
+jQuery(PersonFilter.init()); // Run after page loads

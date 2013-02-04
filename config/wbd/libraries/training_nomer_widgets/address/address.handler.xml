@@ -1,0 +1,4 @@
+ <requestHandler>
+	<class>tooltwist.training_nomer.requestHandlers.AddressRequestHandler</class>
+	<description>Address Request Handler</description>
+</requestHandler>

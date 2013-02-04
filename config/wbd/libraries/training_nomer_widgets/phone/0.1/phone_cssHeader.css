@@ -1,0 +1,9 @@
+/* Styles for widget phone */
+
+#registrationForm .labels {
+	font:arial;
+}
+
+#registrationForm .inputboxes {
+	width:150px;
+}

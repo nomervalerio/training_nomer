@@ -1,0 +1,6 @@
+<widget>
+  <widgetClass>tooltwist.training_nomer.widgets.PhoneFilterWidget</widgetClass>
+  <idWithinRootWidget>0</idWithinRootWidget>
+  <label>Phone Filter</label>
+  <description>Filter Widget for Phone</description>
+</widget>

@@ -1,0 +1,4 @@
+ <requestHandler>
+	<class>tooltwist.training_nomer.requestHandlers.PhoneRequestHandler</class>
+	<description>Phone Request Handler</description>
+</requestHandler>

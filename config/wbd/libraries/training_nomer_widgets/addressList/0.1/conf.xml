@@ -1,0 +1,6 @@
+<widget>
+  <widgetClass>tooltwist.training_nomer.widgets.AddressListWidget</widgetClass>
+  <idWithinRootWidget>0</idWithinRootWidget>
+  <label>addressListWidget</label>
+  <description>Address List Widget</description>
+</widget>

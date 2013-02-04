@@ -26,7 +26,7 @@
 
 <!-- ********** INSERT HTML HERE ********** -->
 <div %%idDefinition%% class="PersonFilter" >
-	Filter : <input type="text" id="txt-filter" name="txt-filter" >
+	Filter : <input type="text" id="txt-filter" name="txt-filter" />
 </div>
 
 <!--END-->

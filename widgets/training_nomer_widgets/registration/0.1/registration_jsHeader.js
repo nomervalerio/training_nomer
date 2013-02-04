@@ -12,6 +12,9 @@ var Registration = function() {
 				var firstName = jQuery("#firstName").val();
 				var middleName = jQuery("#middleName").val();
 				var lastName = jQuery("#lastName").val();
+				var email = jQuery("#email").val();
+				var password1 = jQuery("#password1").val();
+				var password2 = jQuery("#password2").val();
 				
 				jQuery.ajax({
 					url: "",
@@ -21,7 +24,10 @@ var Registration = function() {
 						userName: userName,
 						firstName: firstName,
 						middleName: middleName,
-						lastName: lastName
+						lastName: lastName,
+						email: email,
+						password1: password1,
+						password2: password2
 					},
 					success: function(data){
 						console.log("data", data);
@@ -29,8 +35,14 @@ var Registration = function() {
 						if(data == 'true'){
 							alert("Person data successfully saved.");
 						}
-						else{
+						else if(data == 'false'){
 							alert("Username already exist!");
+						}
+						else if(data == 'invalid'){
+							alert("Please input a valid Email!");
+						}
+						else{
+							alert("Password does not match!");
 						}
 					}
 				});

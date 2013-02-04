@@ -1,0 +1,4 @@
+ <requestHandler>
+	<class>tooltwist.training_nomer.requestHandlers.RegisterRequestHandler</class>
+	<description>Register Request Handler</description>
+</requestHandler>

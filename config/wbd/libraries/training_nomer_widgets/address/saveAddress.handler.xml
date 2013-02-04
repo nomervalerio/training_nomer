@@ -1,0 +1,4 @@
+<requestHandler>
+	<class>tooltwist.training_nomer.requestHandlers.SaveAddressRequestHandler</class>
+	<description>Save Address Request Handler</description>
+</requestHandler>

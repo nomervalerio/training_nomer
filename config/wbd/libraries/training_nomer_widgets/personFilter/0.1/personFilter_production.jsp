@@ -25,24 +25,8 @@
 %>
 
 <!-- ********** INSERT HTML HERE ********** -->
-<div %%idDefinition%% class="PersonFilter" style="width:200px; border-style:solid; border-width:1px; text-align: center;">
-	personFilter
-
-	<!-- Display an image 
-	<img src="%%URL(training_nomer/images/myImage.png)%%"/>
-	 -->
-
-	<%-- Use a property
-	My Property = <%=snippetVar_myProperty%><br/>
-	--%>
-	
-	<%-- link to a navpoint, with automatic parameters added
-	<%
-	String nextPageUrl = RoutingUIM.navpointUrl(jh, snippetVar_myNavpoint, AutomaticUrlParametersMode.INSERT_AUTOMATIC_URL_PARAMETERS_NOW);
-	%>
-	<a href="+nextPageUrl+">next page</a>
-	--%>
-
+<div %%idDefinition%% class="PersonFilter" >
+	Filter : <input type="text" id="txt-filter" name="txt-filter" >
 </div>
 
 <!--END-->

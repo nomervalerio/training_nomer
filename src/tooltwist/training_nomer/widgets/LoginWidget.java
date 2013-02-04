@@ -38,7 +38,7 @@ public class LoginWidget extends WbdWidgetController
 		instance.defineProperty(new WbdStringProperty("elementId", null, "Id", ""));
 //		instance.defineProperty(new WbdStringProperty("myProperty", null, "My Property", ""));
 //		instance.defineProperty(new WbdNavPointProperty("navpoint", null, "Navpoint", ""));
-		instance.defineProperty(new WbdNavPointProperty("listPage", null, "List Page", ""));
+		instance.defineProperty(new WbdNavPointProperty("registrationPage", null, "Registration Page", ""));
 	}
 	
 	@Override
@@ -140,12 +140,12 @@ public class LoginWidget extends WbdWidgetController
 	private SnippetParam[] getSnippetParams(WbdGenerator generator, WbdWidget instance, UimData ud) throws WbdException {
 //		String myProperty = instance.getProperty("myProperty", null);
 //		String myNavpoint = instance.getProperty("myNavpoint", null);
-		String successPage = instance.getProperty("listPage", null); //ttDemo-14
-		successPage =RoutingUIM.navpointUrl(ud, successPage, AutomaticUrlParametersMode.NO_AUTOMATIC_URL_PARAMETERS); //ttsvr/n/ttDemo-14
+		String registerPage = instance.getProperty("registrationPage", null); //ttDemo-14
+		registerPage =RoutingUIM.navpointUrl(ud, registerPage, AutomaticUrlParametersMode.NO_AUTOMATIC_URL_PARAMETERS); //ttsvr/n/ttDemo-14
 		SnippetParam[] params = {
 //			new SnippetParam("myProperty", myProperty),
 //			new SnippetParam("myNavpoint", myNavpoint)
-				new SnippetParam("successPage", successPage)
+			new SnippetParam("registerPage", registerPage)
 		};
 		return params;
 	}

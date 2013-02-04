@@ -33,6 +33,7 @@
 			<td>First Name</td>
 			<td>Middle Name</td>
 			<td>Last Name</td>
+			<td>Email</td>
 		</tr>
 		
 		<%
@@ -45,6 +46,7 @@
 					<td><a href="%%registrationPage%%?personId=<%=nodes.getText("personId")%>"><%=nodes.getText("firstName")%></a></td>
 					<td><a href="%%registrationPage%%?personId=<%=nodes.getText("personId")%>"><%=nodes.getText("middleName")%></a></td>
 					<td><a href="%%registrationPage%%?personId=<%=nodes.getText("personId")%>"><%=nodes.getText("lastName")%></a></td>
+					<td><a href="%%registrationPage%%?personId=<%=nodes.getText("personId")%>"><%=nodes.getText("email")%></a></td>
 				</tr>
 		<%} %>
 	</table>
