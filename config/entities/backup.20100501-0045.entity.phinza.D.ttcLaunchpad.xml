@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<entity>
+    <attribute>
+        <name>exampleColumn</name>
+        <sequence>1</sequence>
+        <columnLength>10</columnLength>
+        <heading>Example column</heading>
+        <columnHeading>ex. Col.</columnHeading>
+        <databaseColumn>example</databaseColumn>
+        <fieldLength>10</fieldLength>
+        <typeScopeType>P</typeScopeType>
+        <typeAttribute>VARCHAR</typeAttribute>
+    </attribute>
+</entity>

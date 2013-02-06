@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<entity>
+    <tableName>bh_marker</tableName>
+    <attribute>
+        <name>markerId</name>
+        <sequence>0</sequence>
+        <uniqueKey>Y</uniqueKey>
+        <primaryKey>Y</primaryKey>
+        <typeScopeType>P</typeScopeType>
+        <typeAttribute>IDENTITY</typeAttribute>
+    </attribute>
+    <attribute>
+        <name>sampleID</name>
+        <sequence>1</sequence>
+        <linkedEntity>bhSample</linkedEntity>
+        <typeScopeType>P</typeScopeType>
+        <typeAttribute>INTEGER</typeAttribute>
+    </attribute>
+    <attribute>
+        <name>timeOffset</name>
+        <sequence>2</sequence>
+        <typeScopeType>P</typeScopeType>
+        <typeAttribute>LONG</typeAttribute>
+    </attribute>
+</entity>

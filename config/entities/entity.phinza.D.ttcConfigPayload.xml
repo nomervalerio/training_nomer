@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<entity>
+    <attribute>
+        <name>junk</name>
+        <sequence>2</sequence>
+        <columnLength>10</columnLength>
+        <uniqueKey>N</uniqueKey>
+        <primaryKey>N</primaryKey>
+        <heading>junk</heading>
+        <columnHeading>junk</columnHeading>
+        <databaseColumn>junk</databaseColumn>
+        <typeScopeType>P</typeScopeType>
+        <typeAttribute>TEXT</typeAttribute>
+    </attribute>
+    <attribute>
+        <name>sortOrder</name>
+        <sequence>1</sequence>
+        <columnLength>10</columnLength>
+        <uniqueKey>N</uniqueKey>
+        <primaryKey>N</primaryKey>
+        <heading>Sort Order</heading>
+        <columnHeading>Sort</columnHeading>
+        <databaseColumn>sort_order</databaseColumn>
+        <inSearchList>Y</inSearchList>
+        <searchable>Y</searchable>
+        <fieldLength>10</fieldLength>
+        <isDescription>Y</isDescription>
+        <multiLanguage>N</multiLanguage>
+        <typeScopeType>P</typeScopeType>
+        <typeAttribute>INTEGER</typeAttribute>
+    </attribute>
+</entity>

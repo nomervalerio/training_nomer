@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<entity>
+    <tableName>personAddress</tableName>
+    <attribute>
+        <sequence>2</sequence>
+    </attribute>
+    <attribute>
+        <name>addressId</name>
+        <sequence>1</sequence>
+        <uniqueKey>Y</uniqueKey>
+        <primaryKey>Y</primaryKey>
+        <description>Address Id</description>
+        <typeScopeType>P</typeScopeType>
+        <typeAttribute>IDENTITY</typeAttribute>
+    </attribute>
+    <attribute>
+        <name>personId</name>
+        <sequence>0</sequence>
+        <columnLength>20</columnLength>
+        <uniqueKey>N</uniqueKey>
+        <primaryKey>Y</primaryKey>
+        <description>Person Id</description>
+        <linkedEntity>person</linkedEntity>
+    </attribute>
+</entity>

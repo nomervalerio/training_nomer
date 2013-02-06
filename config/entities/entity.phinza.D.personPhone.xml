@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<entity>
+    <tableName>personPhone</tableName>
+    <attribute>
+        <name>completeNumber</name>
+        <sequence>3</sequence>
+        <columnLength>50</columnLength>
+        <description>Complete Number</description>
+        <typeScopeType>P</typeScopeType>
+        <typeAttribute>VARCHAR</typeAttribute>
+    </attribute>
+    <attribute>
+        <name>personId</name>
+        <sequence>0</sequence>
+        <description>Person Id</description>
+        <linkedEntity>person</linkedEntity>
+    </attribute>
+    <attribute>
+        <name>phoneId</name>
+        <sequence>1</sequence>
+        <uniqueKey>Y</uniqueKey>
+        <primaryKey>Y</primaryKey>
+        <description>Phone Id</description>
+        <typeScopeType>P</typeScopeType>
+        <typeAttribute>IDENTITY</typeAttribute>
+    </attribute>
+    <attribute>
+        <name>phoneType</name>
+        <sequence>2</sequence>
+        <columnLength>20</columnLength>
+        <description>Phone Type</description>
+        <typeScopeType>P</typeScopeType>
+        <typeAttribute>VARCHAR</typeAttribute>
+    </attribute>
+</entity>

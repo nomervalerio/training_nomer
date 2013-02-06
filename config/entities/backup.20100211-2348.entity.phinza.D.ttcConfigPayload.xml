@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<entity>
+    <attribute>
+        <name>sortOrder</name>
+        <sequence>1</sequence>
+        <columnLength>10</columnLength>
+        <uniqueKey>N</uniqueKey>
+        <primaryKey>N</primaryKey>
+        <heading>Sort Order</heading>
+        <columnHeading>Sort</columnHeading>
+        <databaseColumn>sort_order</databaseColumn>
+        <fieldLength>10</fieldLength>
+        <multiLanguage>N</multiLanguage>
+        <typeScopeType>P</typeScopeType>
+        <typeAttribute>LONG</typeAttribute>
+    </attribute>
+</entity>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<entity>
+    <tableName>person</tableName>
+    <attribute>
+        <name>email</name>
+        <sequence>6</sequence>
+        <columnLength>50</columnLength>
+        <description>Email</description>
+        <typeScopeType>P</typeScopeType>
+        <typeAttribute>VARCHAR</typeAttribute>
+    </attribute>
+    <attribute>
+        <name>firstName</name>
+        <sequence>3</sequence>
+        <columnLength>50</columnLength>
+        <description>First Name</description>
+        <typeScopeType>P</typeScopeType>
+        <typeAttribute>VARCHAR</typeAttribute>
+    </attribute>
+    <attribute>
+        <name>lastName</name>
+        <sequence>4</sequence>
+        <columnLength>50</columnLength>
+        <description>Last Name</description>
+        <typeScopeType>P</typeScopeType>
+        <typeAttribute>VARCHAR</typeAttribute>
+    </attribute>
+    <attribute>
+        <name>middleName</name>
+        <sequence>5</sequence>
+        <columnLength>50</columnLength>
+        <description>Middle Name</description>
+        <typeScopeType>P</typeScopeType>
+        <typeAttribute>VARCHAR</typeAttribute>
+    </attribute>
+    <attribute>
+        <name>password</name>
+        <sequence>2</sequence>
+        <columnLength>20</columnLength>
+        <description>Password</description>
+        <typeScopeType>P</typeScopeType>
+        <typeAttribute>VARCHAR</typeAttribute>
+    </attribute>
+    <attribute>
+        <name>personId</name>
+        <sequence>0</sequence>
+        <uniqueKey>Y</uniqueKey>
+        <primaryKey>Y</primaryKey>
+        <description>Person Id</description>
+        <typeScopeType>P</typeScopeType>
+        <typeAttribute>IDENTITY</typeAttribute>
+    </attribute>
+    <attribute>
+        <name>userName</name>
+        <sequence>1</sequence>
+        <columnLength>20</columnLength>
+        <description>User Name</description>
+        <typeScopeType>P</typeScopeType>
+        <typeAttribute>VARCHAR</typeAttribute>
+    </attribute>
+</entity>

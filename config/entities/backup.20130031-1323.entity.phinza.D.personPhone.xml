@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<entity>
+    <tableName>personPhone</tableName>
+    <attribute>
+        <name>personId</name>
+        <sequence>0</sequence>
+        <description>Person Id</description>
+        <linkedEntity>person</linkedEntity>
+    </attribute>
+</entity>
